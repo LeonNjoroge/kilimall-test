@@ -1,3 +1,2 @@
-const { I } = inject();
-// Add in your custom step files
-
+// Import steps to main test entry point
+import './login.steps';

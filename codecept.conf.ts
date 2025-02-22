@@ -3,7 +3,7 @@ exports.config = {
   helpers: {
     Playwright: {
       browser: 'chromium',
-      url: 'https://www.jumia.co.ke/',
+      url: 'https://www.kilimall.co.ke',
       show: true
     }
   },
