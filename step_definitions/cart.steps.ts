@@ -1,3 +1,5 @@
+//Adding product to cart
+
 const {I} = inject();
 import dotenv from 'dotenv';
 dotenv.config();
@@ -14,12 +16,12 @@ Given('I am on the home page', () => {
     I.amOnPage('/');
 });
 When('I click an option on the category', () => {
-    I.click(locate('div.base-category-item').at(randomInt(12 - 1)));
+    I.click(locate('div.base-category-item').at(randomInt(12 - 2)));
 
 } );
 Then('I am on category page', () => {
     I.see('results for');
-    I.wait(5);
+    
 });
 When('I select a product', () => {
     I.click(locate('div.product-item a').at(randomInt(20 - 1)));
@@ -64,7 +66,7 @@ When('I click an option on the category', () => {
 } );
 Then('I am on category page', () => {
     I.see('results for');
-    I.wait(5);
+   
 });
 When('I select a product', () => {
     I.click(locate('div.product-item a').at(randomInt(20 - 1)));

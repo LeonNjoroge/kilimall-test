@@ -56,7 +56,7 @@ When('I enter the email: {string} and password: {string}', (email, password) => 
 });
 When('I submit the login form',() => {
     I.click('button.van-button');
-    I.wait(5);
+    I.wait(2);
 });
 When('I should be redirected to the home page', () => {
     I.amOnPage('/');
