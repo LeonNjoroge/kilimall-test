@@ -1,0 +1,22 @@
+{
+  "name": "jumia-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps"
+  },
+  "author": "Leon Njoroge",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "codeceptjs": "^3.7.2",
+    "cucumber": "^6.0.7",
+    "playwright": "^1.50.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@types/node": "^22.13.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
